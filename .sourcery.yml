@@ -1,0 +1,12 @@
+sources:
+  - MyApp/Sources
+templates:
+  - build-system/Templates
+output:
+  MyAppTests/Sources/Mocks/Sourcery 
+args:
+  autoMockableTestableImports:
+    - MyApp
+  autoMockableImports:
+    - RxSwift
+    - RxCocoa
